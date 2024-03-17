@@ -1,12 +1,12 @@
 
 import { Text, View } from 'react-native';
-import { styles } from './home_style';
+import * as HS from './home_style';
 
 export function Home() {
  return (
-  <View style={styles.container}>
-   <Text>Home</Text>
-  </View>
+  <HS.Background>
+   <HS.CenterText>Home</HS.CenterText>
+  </HS.Background>
  );
 }
 

@@ -1,4 +1,15 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // config paths to use short imports
+      "@assets/*": [
+        "assets/images/*"
+      ],
+      "@home/*": [
+        "src/home/*"
+      ]
+    }
+  },
   "extends": "expo/tsconfig.base"
 }
