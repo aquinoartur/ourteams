@@ -8,6 +8,9 @@
       ],
       "@home/*": [
         "src/app/home/*"
+      ],
+      "@widgets/*": [
+        "src/components/*"
       ]
     }
   },
