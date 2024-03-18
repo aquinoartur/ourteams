@@ -7,7 +7,7 @@
         "assets/images/*"
       ],
       "@home/*": [
-        "src/home/*"
+        "src/app/home/*"
       ]
     }
   },

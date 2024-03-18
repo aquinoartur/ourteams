@@ -1,8 +1,12 @@
 import { Home } from '@home/home';
+import { ThemeProvider } from 'styled-components/native';
+import { appTheme } from 'src/theme';
 
 export default function App() {
   return (
-    <Home />
+    <ThemeProvider theme={{ appTheme }} >
+      <Home />
+    </ThemeProvider>
   );
 }
 

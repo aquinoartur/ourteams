@@ -1,5 +1,3 @@
-
-import { Text, View } from 'react-native';
 import * as HS from './home_style';
 
 export function Home() {
