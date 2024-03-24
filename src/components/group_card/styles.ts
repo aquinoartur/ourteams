@@ -15,7 +15,6 @@ export const Container = styled(TouchableOpacity)`
 
 export const GroupIcon = styled(Ionicons).attrs(
  ({ theme }) => ({
-  size: 32,
   color: theme.COLORS.GREEN_500,
  })
 )``;

@@ -9,10 +9,17 @@ type GroupCardProps = TouchableOpacityProps & {
 export function GroupCard({ title, ...props }: GroupCardProps) {
  return (
   <Container {...props}>
-   <GroupIcon name='people-outline' />
-   <HorizontalGap w={8} />
+   <GroupIconOutline />
+   <HorizontalGap w={12} />
    <Label>{title}</Label>
   </Container>
+ );
+}
+
+
+export function GroupIconOutline({ customSize = 32 }: { customSize?: number }) {
+ return (
+  <GroupIcon name='people-outline' size={customSize} />
  );
 }
 
