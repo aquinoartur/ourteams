@@ -7,7 +7,7 @@
         "assets/images/*"
       ],
       "@home/*": [
-        "src/app/home/*"
+        "src/modules/home/*"
       ],
       "@widgets/*": [
         "src/components/*"

@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components/native';
 import theme from 'src/theme';
 import { StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { Home } from 'src/app/home/home';
+import { Home } from 'src/modules/home/home';
 import { LoadingIndicator } from '@widgets/loading';
 import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
 
